@@ -58,8 +58,7 @@ CREATE TABLE `egitmen` (
 --
 
 INSERT INTO `egitmen` (`id`, `akaNo`, `sifre`, `ad`, `soyad`, `unvan`, `mail`, `durum`) VALUES
-(1, 1381, 123456, 'Erman', 'Yükseltürk', 'Profesör Doktor', 'eyukselturk@gmail.com', 1),
-(2, 1524, 123, 'kadir', 'uysal', 'prof doç ord xd', 'info@kadiruysal.com.tr', 1);
+(1, 1381, 123456, 'Ali', 'Veli', 'Profesör Doktor', 'aliveli@gmail.com', 1),
 
 -- --------------------------------------------------------
 
@@ -83,7 +82,6 @@ CREATE TABLE `ogrenci` (
 
 INSERT INTO `ogrenci` (`id`, `ogrencino`, `sifre`, `mail`, `ad`, `soyad`, `durum`) VALUES
 (1, 160805022, '123456', 'gorkemkoc97@yandex.com', 'Görkem', 'Koç', 1),
-(2, 160805006, '123456', 'mhmmtdmrk21@gmail.com', 'Muhammet', 'Demirok', 1);
 
 -- --------------------------------------------------------
 
